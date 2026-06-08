@@ -1,6 +1,5 @@
-
 name: organic_bloom_erp
-description: Vyapar style ERP for Organic Bloom Cosmetics
+description: Organic Bloom Cosmetics ERP App
 
 publish_to: 'none'
 
@@ -10,9 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  sqflite: ^2.3.0
-  path: ^1.8.3
 
 flutter:
   uses-material-design: true
