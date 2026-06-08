@@ -5,12 +5,9 @@ workflows:
 
     environment:
       flutter: stable
-      android_signing: false
+      android_signing: []
 
     scripts:
-      - name: Clean project
-        script: flutter clean
-
       - name: Get dependencies
         script: flutter pub get
 
