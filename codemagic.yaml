@@ -2,10 +2,15 @@ workflows:
   android-workflow:
     name: Organic Bloom ERP Build
     max_build_duration: 60
+
     environment:
       flutter: stable
       android_signing: false
+
     scripts:
+      - name: Clean project
+        script: flutter clean
+
       - name: Get dependencies
         script: flutter pub get
 
